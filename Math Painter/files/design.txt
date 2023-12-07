@@ -1,0 +1,28 @@
+
+This is the design file for Math Painter Application
+
+Title: Math Painter
+
+Description:
+            This program makes a canvas of x, y coordinates and can put black, red colour on it. It can also be a transparent canvas. Moreover, there are two
+            type of objects that can be drawn on it. Rectangle and Square.
+
+Objects:
+        Canvas:
+                width
+                height
+                color
+                make(image_path)
+        Rectangle:
+                x
+                y
+                width
+                height
+                color
+                draw(canvas)
+        Square:
+                x
+                y
+                side
+                color
+                draw(canvas)

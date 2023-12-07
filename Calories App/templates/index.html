@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calories App</title>
+    <link rel="stylesheet" href="static/index.css" type="text/css">
+</head>
+<body>
+<h1 class="main_header_text">Calories Calculation Form</h1>
+<p>Fill in the form and click the button to know how many calories you need!</p>
+<p>Let's get some info about you first</p>
+<form action={{url_for("home_page")}} method="post">
+    {{homepageform.weight.label}}
+    {{homepageform.weight}} <br>
+    {{homepageform.height.label}}
+    {{homepageform.height}} <br>
+    {{homepageform.age.label}}
+    {{homepageform.age}} <br>
+    <hr>
+    <p>Today's weather counts too.</p>
+    <p>Tell us where you are so we include today's temperature into the calculations.</p>
+    {{homepageform.city.label}}
+    {{homepageform.city}} <br>
+    {{homepageform.country.label}}
+    {{homepageform.country}} <br>
+    {{homepageform.button}}
+
+    {% if result %}
+    <br>
+    <span class="answer_span">You need {{calories}} calories (kcal) today.</span>
+    <br>
+    <span class="answer_span">Temperature is: {{temperature}}&nbsp;°C </span>
+    {% endif %}
+</form>
+</body>
+</html>

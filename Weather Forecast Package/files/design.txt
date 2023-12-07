@@ -1,0 +1,13 @@
+
+
+Title: Weather Forecast Package
+
+Description:
+            This package lets user find weather data of any country in the world.
+
+Object:
+        Weather:
+                __init__()
+                next_12h()
+                next_12h_simplified()
+             

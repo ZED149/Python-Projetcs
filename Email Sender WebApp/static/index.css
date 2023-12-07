@@ -1,0 +1,97 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image{
+    background-image: url("./background_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.file_input_wrapper{
+    width: 50vh;
+    height: 40px;
+    /*overflow: hidden;*/
+    position: relative;
+    left: 40%;
+    top: 40vh;
+    /*border: 2px solid red;*/
+}
+
+.file_input_wrapper > input[type='file']{
+    width: 50vh;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.file_input_wrapper > .btn-file-input{
+    display: inline-block;
+    width: 50vh;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #6395ff;
+    color: white;
+}
+
+.file_input_wrapper:hover > .btn-file-input{
+    background-color: white;
+    color: #6395ff;
+    transition-delay: 0.1s;
+    cursor: grab;
+}
+
+.file_input_wrapper2{
+    width: 50vh;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    top: 40vh;
+    left: 40%;
+    /*border: 2px solid green;*/
+}
+
+.continue_button{
+    position: absolute;
+    display: inline-block;
+    width: 50vh;
+    height: 40px;
+    background-color: #6395ff;
+    color: white;
+    border-radius: 5px;
+}
+
+.continue_button:hover{
+    background-color: white;
+    color: #6395ff;
+    transition-delay: 0.1s;
+    cursor: grab;
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    left: 40.2%;
+    color: lightgray;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+span{
+    width: auto;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 48%;
+    left: 47%;
+    color: lightgray;
+    font-style: italic;
+}

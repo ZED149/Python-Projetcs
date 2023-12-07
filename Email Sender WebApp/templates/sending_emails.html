@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sending Emails</title>
+</head>
+<body>
+    <h1>Total number of candidates are: {{total_rows}}</h1>
+    {%for i in range(0, total_rows_int)%}
+        <p>{{i+1}}: Email sent to {{candidate_email_address[i]}}</p>
+    {%endfor%}
+</body>
+</html>

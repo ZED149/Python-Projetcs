@@ -1,0 +1,17 @@
+
+
+Title:  Instant Directory Web App
+
+Description:
+            A Web app that lets users type in a term in a text box and returns the English definition of that term instantly as soon as the user
+            has finished typing.
+            The web app consists of website with a navigation menu, a Home, a Dictionary, and About page.
+
+Objects:
+        Definition:
+            term
+            get()
+        NavBar:
+        HomePage:
+        DictionaryPage:
+        AboutPage:

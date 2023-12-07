@@ -1,0 +1,12 @@
+Match ID: 7475516331
+Duration: 34.266666666666666
+Average Rank: 63
+Player Team: Radiant
+Radiant Score: 45
+Dire Score: 28
+Player Stats: 
+Kills: 10, Deaths: 7, Assists 17
+Abandoned: 0
+Last Hits: 249, Denies: 3
+Networth: 22464, GPM: 696, XPM: 985 , Level: 24
+Hero Damage Dealt: 35930, Tower Damage Dealt: 2353

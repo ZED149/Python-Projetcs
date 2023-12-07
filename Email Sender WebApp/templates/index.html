@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uploading testing</title>
+    <link rel="stylesheet" href="static/index.css" type="text/css">
+</head>
+<body>
+    <div class="bg-image">
+        <h1>ZED Automatic Email Sender</h1>
+        <form action="{{url_for('upload_file')}}" method="post" enctype="multipart/form-data">
+            <!--<input type="file" name="file" class="upload_button">-->
+            <div class="file_input_wrapper">
+                <button class="btn-file-input">Upload Excel File</button>
+                <input type="file" name="file">
+            </div>
+            <br>
+            <div class="file_input_wrapper2">
+                <input type="submit" value="Click to send Emails" class="continue_button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
