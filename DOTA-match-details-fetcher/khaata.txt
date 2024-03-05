@@ -1,0 +1,12 @@
+Match ID: 7595978583
+Duration: 33.983333333333334
+Average Rank: 61
+Player Team: Dire
+Radiant Score: 44
+Dire Score: 27
+Player Stats: 
+Kills: 8, Deaths: 6, Assists 10
+Abandoned: 0
+Last Hits: 187, Denies: 12
+Networth: 15268, GPM: 494, XPM: 630 , Level: 20
+Hero Damage Dealt: 26763, Tower Damage Dealt: 30
