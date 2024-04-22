@@ -1,0 +1,10 @@
+name,address,city,country,rating,music_allowed,parking_space,cuisine,price_range
+China Town,MM Alam Road,Lahore,Pakistan,4,yes,30,Chinese,Moderate
+Jades Cafe,MM Alam Road,Lahore,Pakistan,4,yes,20,Pakistani,Moderate
+Pearl Continental,Mall Road,Lahore,Pakistan,5,yes,100,All,Expensive
+KFC,Johar Town,Lahore,Pakistan,3,yes,15,Fast Food,Moderate
+Jamal Dahi Bhallay,Faisal Town,Lahore,Pakistan,5,no,20,Pakistani,Low
+Dawat,Serena Hotel,Islamabad,Pakistan,5,yes,20,Arabian Pakistani Indian,Expensive
+La Terrazza,F7 Markaz,Islamabad,Pakistan,4,no,30,Italian European,Moderate
+GoFlour,Near Old School,Copenhagen,Denmark,yes,73,Danish European,Moderate
+Coffee Bean and Tea Leaf,Behind Twin Towers,Las Vegas,USA,2,yes,112,All,Low
