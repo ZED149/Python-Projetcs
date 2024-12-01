@@ -26,12 +26,15 @@ sherry_match_details = {
 match_details_url = f"https://api.steampowered.com/IDOTA2MATCH_570/GetMatchDetails/v1/?key={key}&match_id={int(sherry_match_details['last_match_id'])}&skill"
 # making a request to servers
 response = requests.get(match_details_url)
+if response != 200:
+    print("Response Not Valid")
+    exit(1)
 json_format = response.json()
 # storing player details that i want to extract
 player_details_that_i_want = {
-    'radiant_score':json_format['result']['radiant_score'],
-    "dire_score":json_format['result']['dire_score'],
-    'players_list':json_format['result']['players']
+    'radiant_score': json_format['result']['radiant_score'],
+    "dire_score": json_format['result']['dire_score'],
+    'players_list': json_format['result']['players']
 }
 
 for player in player_details_that_i_want['players_list']:
